@@ -20,7 +20,7 @@ This project showcases skills in data processing, API integration, and leveragin
 * **API:** Google Gemini 2.5 Pro (Model: `gemini-2.5-pro-preview-03-25`) (Source 6)
 * **Data Format:** CSV
 
-## ⚙️ How to Run the Script
+## How to Run the Script
 
 ### Prerequisites
 
@@ -49,13 +49,14 @@ This project showcases skills in data processing, API integration, and leveragin
     genai.configure(api_key="YOUR_ACTUAL_GEMINI_API_KEY_HERE")
     ```
      **For production use, you should set your API key as an environment variable.**
+
+```bash
     # macOS / Linux
-    ```bash
     export GEMINI_API_KEY="your_api_key_here"
 
     # Windows (PowerShell)
     $env:GEMINI_API_KEY = "your_api_key_here"
-
+    ```
 
 4.  **Execute the Script:**
     ```bash
@@ -66,7 +67,7 @@ This project showcases skills in data processing, API integration, and leveragin
 
 The script will iterate through each item in the `Grocery_List.csv` and print the AI's analysis:
 
-example:
+Example:
 
 Item: Ramen Noodles Diabetic Friendly?: No Reasoning: [Gemini's detailed explanation on why the item is not recommended for diabetics]
 Item: Apple Diabetic Friendly?: Yes Reasoning: [Gemini's detailed explanation on why the item is recommended for diabetics]
