@@ -1,4 +1,4 @@
-# 🍎 Grocery Analyzer: Diabetic Dietary Advisor
+# Grocery Analyzer: Diabetic Dietary Advisor
 
 ## Project Overview
 
@@ -6,14 +6,14 @@ This project is a Python-based script designed to analyze grocery items and thei
 
 This project showcases skills in data processing, API integration, and leveraging large language models (LLMs) for specialized analysis.
 
-## 🚀 Key Features
+## Key Features
 
 * **CSV Data Ingestion:** Reads and processes a structured CSV file (`Grocery_List.csv`) containing nutritional information (Calories, Carbohydrates, Sugar, etc.).
 * **Gemini API Integration:** Dynamically generates prompts for the Gemini 2.5 Pro model, sending nutritional data for analysis.
 * **Diabetic Suitability Analysis:** The Gemini model provides a definitive "Yes" or "No" verdict on the item's diabetic friendliness, along with a detailed explanation (Source 4, 5).
 * **Structured Output:** Parses the AI's response to extract the verdict and reasoning for clear, itemized output (Source 7).
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Language:** Python 3
 * **Libraries:** `csv`, `google-genai` (for the Gemini API), `pandas` (optional, but good for data manipulation)
