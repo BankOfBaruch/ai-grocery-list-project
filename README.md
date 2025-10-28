@@ -50,7 +50,7 @@ This project showcases skills in data processing, API integration, and leveragin
     ```
      **For production use, you should set your API key as an environment variable.**
 
-```bash
+    ```bash
     # macOS / Linux
     export GEMINI_API_KEY="your_api_key_here"
 
